@@ -1,0 +1,37 @@
+.ra-status-obra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1 1 calc(20% - 20px);
+        position: relative;
+        margin: 0;
+        padding: 0 0 35px;
+        span {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+    }
+}
+
+circle-progress::part(value) {
+    stroke: var(--e-global-color-7439b20e);
+}
+circle-progress::part(text) {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 34px;
+    fill: var(--e-global-color-7439b20e);
+    font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-primary-font-weight);
+}
