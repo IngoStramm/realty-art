@@ -4,7 +4,7 @@
  * Plugin Name: Realty Art
  * Plugin URI: https://agencialaf.com
  * Description: Plugin integrantye do site do Realty Art.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Ingo Stramm
  * Text Domain: realty-art
  * License: GPLv2
@@ -24,7 +24,7 @@ function ra_debug($debug)
 
 function ra_version()
 {
-    $version = '1.0.0';
+    $version = '1.0.1';
     return $version;
 }
 

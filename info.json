@@ -1,6 +1,6 @@
 {
     "name": "Realty Art",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "download_url": "https://github.com/IngoStramm/realty-art/raw/refs/heads/main/dist/realty-art.zip",
     "homepage": "https://agencialaf.com",
     "requires": "4.7",
